@@ -1,25 +1,25 @@
 class Lingohub < Formula
   desc "Command-line client, terminal dashboard and MCP server for the LingoHub API"
   homepage "https://lingohub.com"
-  version "0.2.3"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/lingohub/lingohub-cli/releases/download/v0.2.3/lingohub-aarch64-apple-darwin.tar.gz"
-      sha256 "328f2aa671d3e333371c2944d7b9557da5297ddbc2354f4cb84840d3c34726ff"
+      url "https://github.com/lingohub/lingohub-cli/releases/download/v0.3.0/lingohub-aarch64-apple-darwin.tar.gz"
+      sha256 "4249c10408dcea6fffe508dc4c956ce0f90b6bced28e1ce9860a4ed871e211b8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lingohub/lingohub-cli/releases/download/v0.2.3/lingohub-x86_64-apple-darwin.tar.gz"
-      sha256 "f89483c2f5476f12bbb3cc834c8688199a3bbc6d19d04a04b9fa69a107891ab8"
+      url "https://github.com/lingohub/lingohub-cli/releases/download/v0.3.0/lingohub-x86_64-apple-darwin.tar.gz"
+      sha256 "0c7d6b4c4209e027a59551117c769c0be2401888a0370c41a774693bc54d525e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/lingohub/lingohub-cli/releases/download/v0.2.3/lingohub-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "687f94fb4b74b2ad4307cc28e26d5f6cd80ebad6d7d886c5c37f0c7eee61c8d1"
+      url "https://github.com/lingohub/lingohub-cli/releases/download/v0.3.0/lingohub-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5deeff144025c249fd2eaf0d5db17b9539f673895c89e08be26d754d6964c197"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lingohub/lingohub-cli/releases/download/v0.2.3/lingohub-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4245707c461387c13e7b62f515354b2330dcd61221ac3b917773596f4bb53ec3"
+      url "https://github.com/lingohub/lingohub-cli/releases/download/v0.3.0/lingohub-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "cbaad1fa92289bc95ce4c295e44fc8e531ca1d875fb356bcc57fd72292c308a9"
     end
   end
   license "Apache-2.0"
